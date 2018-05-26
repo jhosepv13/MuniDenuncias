@@ -54,7 +54,7 @@ public class RegisterActivity extends AppCompatActivity {
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
 
-        imagePreview = (ImageView) findViewById(R.id.imagen_preview);
+
         tituloInput = (EditText) findViewById(R.id.titulo_input);
         usuarioInput = (EditText) findViewById(R.id.usuario_input);
         contenidoInput = (EditText) findViewById(R.id.contenido_input);
